@@ -1,0 +1,33 @@
+﻿  Building Custom Rule Z:/Projects2022/picoc/CMakeLists.txt
+  picoc.c
+  table.c
+Z:\Projects2022\picoc\table.c(53,40): warning C4311: 'type cast': pointer truncation from 'const char *' to 'unsigned long'
+Z:\Projects2022\picoc\table.c(114,40): warning C4311: 'type cast': pointer truncation from 'const char *' to 'unsigned long'
+  lex.c
+  parse.c
+  expression.c
+Z:\Projects2022\picoc\expression.c(259,39): warning C4311: 'type cast': pointer truncation from 'void *' to 'long'
+Z:\Projects2022\picoc\expression.c(287,48): warning C4311: 'type cast': pointer truncation from 'void *' to 'unsigned long'
+Z:\Projects2022\picoc\expression.c(499,77): warning C4312: 'type cast': conversion from 'unsigned long' to 'void *' of greater size
+  heap.c
+Z:\Projects2022\picoc\heap.c(32,57): warning C4311: 'type cast': pointer truncation from 'unsigned char *' to 'unsigned long'
+  type.c
+  variable.c
+  clibrary.c
+  platform.c
+  include.c
+  debug.c
+  platform_msvc.c
+  library_msvc.c
+  stdio.c
+  math.c
+  string.c
+  stdlib.c
+  time.c
+  errno.c
+  Generating Code...
+  Compiling...
+  ctype.c
+  stdbool.c
+  Generating Code...
+  picoc.vcxproj -> Z:\Projects2022\picoc\build\Release\picoc.exe
